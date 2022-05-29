@@ -25,7 +25,12 @@ body{
   }
 
 ul > li{
-    margin-block: 0.5em;
+    margin-block: 0.3em;
+}
+
+li::marker{
+    font-size: 1.2em;
+    color: #61DAFB;
 }
 
 .reasons{
