@@ -1,0 +1,72 @@
+
+
+body{
+    color: white;
+    background: #282D35;
+}
+
+
+.image-logo{
+    position: fixed;
+    z-index: -1;
+    height: 40rem;
+    opacity: 0.5;
+    transform: translateX(80%);
+    animation: react 20s infinite linear;
+}
+
+@keyframes react {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+ul > li{
+    margin-block: 0.5em;
+}
+
+.reasons{
+    height: 30rem;
+    background-color: #21222A;
+}
+
+.logo{
+    width: 100px;
+    height: 30px;
+    object-fit:contain;
+}
+
+.brand{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Id{
+    height: 20rem;
+    object-fit: cover;
+}
+
+
+.card{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background-color: #21222A;
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding-block: 1rem;
+    width: 100%;
+    color: white;
+    background-color: #21222A;
+    
+}
