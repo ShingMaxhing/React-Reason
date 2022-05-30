@@ -7,12 +7,10 @@ import './style.css'
 
 export default function App(){
     return(
-        
     <>
         <AppNavbar/>
         <Main/>
         <Footer/>
     </>
-
     )
 }

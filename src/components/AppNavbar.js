@@ -11,7 +11,7 @@ export default function AppNavbar(){
            className="logo"
            />
       <Nav>
-        <h5>My React Reason Profile</h5>
+        <h5>My React Profile</h5>
       </Nav>
       </Container>
     </Navbar>

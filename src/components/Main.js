@@ -13,7 +13,7 @@ export default function Main(){
           <Card style={{ width: '18rem'}} className="card shadow">
             <Card.Img variant="top" src={Id} className="Id"/>
               <Card.Body>
-                <Card.Title className="text-center">Shing Mae</Card.Title>
+                <Card.Title className="text-center" style={{color: "#61DAFB"}}>Shing Mae</Card.Title>
                 <Card.Text>
                   Hi! I like using react because of the following:
                   <ul className="mt-2 mb-4">
@@ -32,7 +32,6 @@ export default function Main(){
                 </div>
               </Card.Body>
           </Card>
-          <img src={imageLogo} className="image-logo"/>
           <img src={imageLogo} className="image-logo"/>
         </div>
         </IconContext.Provider>
